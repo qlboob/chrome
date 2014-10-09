@@ -15,12 +15,12 @@
       }
     ],
     "icons": {
-      "32": "images/icon_32.png",
-      "48": "images/icon_48.png",
-      "128": "images/icon_128.png"
+      "32": "images/32.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
     },
     "background": {
-      "scripts": ["js/jquery.js", "js/page/ip.zdaye.com/back.js"]
+      "page": "html/back.html"
     },
     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
   });

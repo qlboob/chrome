@@ -10,5 +10,5 @@ setTimeout ->
 	img.src = "http://qinjq.0fees.net/index.php?s=Index/inip&source=ip.zdaye.com&ips="+encodeURIComponent(ips.join("\n"))
 	setTimeout ->
 		location.reload()
-	,5*60*1000
+	,15*60*1000
 ,3000
