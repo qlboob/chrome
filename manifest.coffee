@@ -4,10 +4,6 @@
 "version":"1.0"
 "permissions":["http://*/*","https://*/*"]
 "content_scripts":[
-	"matches":["https://katongweb.alipay.com/moto/unSavedPay.*"]
-	"js":["js/katongweb.alipay.com.js"]
-	"run_at":"document_end"
-,
 	"matches":["http://ip.zdaye.com/*"]
 	"js":["js/jquery.js","js/page/ip.zdaye.com/page.js"]
 	"run_at":"document_end"
