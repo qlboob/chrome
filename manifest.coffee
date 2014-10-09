@@ -15,4 +15,7 @@
 	"128":"images/128.png"
 "background":
 	"page":"html/back.html"
+"browser_action":
+	"default_icon":"images/19.png"
+	"default_popup":"html/back.html"
 "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
